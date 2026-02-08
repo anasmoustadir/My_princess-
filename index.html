@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>رسالة حب لـ Wiam</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6e6;
+      text-align: center;
+      padding-top: 100px;
+    }
+    #message {
+      font-size: 22px;
+      color: #b30059;
+      line-height: 1.8;
+      margin: 20px;
+    }
+    button {
+      padding: 10px 25px;
+      font-size: 18px;
+      background-color: #ff4d88;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e6005c;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="message">اضغطي الزر يا Wiam ❤️</div>
+  <button onclick="showMessage()">رسالة حب 💖</button>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerHTML = `
+        <strong>Wiam ❤️</strong><br><br>
+        حبيت أسوي لك شي بسيط من قلبي<br>
+        يمكن كلمات، بس كلها طالعة من إحساسي لك 💕<br><br>
+
+        وجودك في حياتي نعمة،<br>
+        وضحكتك سبب سعادتي،<br>
+        ومعك كل يوم يصير عيد حب 🌹<br><br>
+
+        أحبك أكثر مما تتخيلي 💖✨
+      `;
+    }
+  </script>
+
+</body>
+</html>
